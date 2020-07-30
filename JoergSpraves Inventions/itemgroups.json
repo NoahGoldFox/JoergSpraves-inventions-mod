@@ -5,10 +5,10 @@
     "ammo": 75,
     "magazine": 100,
     "items": [
-      [ "cobra_pistol_crossbow", 10],
-	  [ "corba_crossbow", 5],
-	  [ "pocketshot", 5],
-	  [ "fenrisbow", 4],
+      [ "cobra_pistol_crossbow", 25],
+	  [ "corba_crossbow", 15],
+	  [ "pocketshot", 10],
+	  [ "fenrisbow", 10],
 	  [ "coldtorpedo", 5]
     ]
   },
@@ -34,9 +34,9 @@
     "id": "home_display_case",
     "//": "this list is for collectibles, antiques, sports memorablia, awards, etc. that a person might put on display in their home",
     "items": [
-      [ "cobra_pistol_crossbow", 10],
-	  [ "corba_crossbow", 5],
-	  [ "fenrisbow", 4]
+      [ "cobra_pistol_crossbow", 15],
+	  [ "corba_crossbow", 10],
+	  [ "fenrisbow", 7]
     ]
   },
   {
@@ -45,8 +45,8 @@
     "subtype": "distribution",
     "entries": [
       { "item": "cobra_pistol_crossbow", "prob": 40 },
-      { "item": "corba_crossbow", "prob": 10 },
-      { "item": "fenrisbow", "prob": 5 },
+      { "item": "corba_crossbow", "prob": 20 },
+      { "item": "fenrisbow", "prob": 10 },
 	  { "item": "instantlegolas", "prob": 5 },
       { "item": "legolini", "prob": 4 },
       { "item": "instantreflex", "prob": 2 }
