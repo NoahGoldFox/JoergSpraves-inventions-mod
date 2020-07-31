@@ -31,7 +31,7 @@
 	},
 	{
     "id": "instantlegolas",
-    "looks_like": "longbow",
+    "looks_like": "shortbow",
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
@@ -305,10 +305,12 @@
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
+	  
     "name": { "str": "Instant legolas longbow" },
     "description": "A six-foot wooden bow featuring an early generation of the instant legolas magazine bow system. Unlike most others, this system doesnt slide, so it provides 5 arrows in its magazine that automatically nock when you draw the bow, but the bow is just as hard to pull back since there is no handle. Also because the system takes up more room on this version, it actually fires bolts instead of arrows. The system adds weight, bulkiness, complexity and makes it impossible to wear the bow.",
     "price": 50000,
     "//": " https://www.youtube.com/watch?v=j9ycC_2AC-g ",
+     "looks_like": "longbow",
     "material": [ "wood" ],
     "flags": [ "FIRE_TWOHAND", "RELOAD_ONE", "PRIMITIVE_RANGED_WEAPON", "WATER_FRIENDLY" ],
     "skill": "archery",
