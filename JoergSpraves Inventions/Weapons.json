@@ -306,14 +306,14 @@
     "symbol": "(",
     "color": "yellow",
     "name": { "str": "Instant legolas longbow" },
-    "description": "A six-foot wooden bow featuring an early generation of the instant legolas magazine bow system. Unlike most others, this system doesnt slide, so it provides 5 arrows in its magazine that automatically nock when you draw the bow, but the bow is just as hard to pull back since there is no handle. The system adds weight, bulkiness, complexity and makes it impossible to wear the bow.",
+    "description": "A six-foot wooden bow featuring an early generation of the instant legolas magazine bow system. Unlike most others, this system doesnt slide, so it provides 5 arrows in its magazine that automatically nock when you draw the bow, but the bow is just as hard to pull back since there is no handle. Also because the system takes up more room on this version, it actually fires bolts instead of arrows. The system adds weight, bulkiness, complexity and makes it impossible to wear the bow.",
     "price": 50000,
     "//": " https://www.youtube.com/watch?v=j9ycC_2AC-g ",
     "material": [ "wood" ],
     "flags": [ "FIRE_TWOHAND", "RELOAD_ONE", "PRIMITIVE_RANGED_WEAPON", "WATER_FRIENDLY" ],
     "skill": "archery",
     "min_strength": 9,
-    "ammo": [ "arrow" ],
+    "ammo": [ "bolt" ],
     "weight": "980 g",
     "volume": "4700 ml",
 	"longest_side": "1200 mm",
@@ -326,9 +326,9 @@
     "dispersion": 900,
     "durability": 4,
 	"reload": 250,
-    "clip_size": 5,
+    "clip_size": 6,
     "valid_mod_locations": [ [ "dampening", 1 ] ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 6 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "bolt": 6 } } ]
   },
   {
     "id": "cobra_pistol_crossbow",
